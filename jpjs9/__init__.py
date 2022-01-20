@@ -33,7 +33,9 @@ class JS9(pyjs9.JS9):
 
 <script> 
     //var elms = document.querySelectorAll("[id='js9frame']");"""
-    f"var elms = Array.from(document.getElementsByClassName('js9frame_{self.base_id}'));"
+    f"""
+    var elms = Array.from(document.getElementsByClassName('js9frame_{self.base_id}'));
+    """
     """
     console.log(elms);
     elms.forEach(
