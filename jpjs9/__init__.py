@@ -6,7 +6,7 @@ import pyjs9
 
 import logging
 
-webdir = "/home/jovyan/js9-web/"
+webdir = "/home/heasoft/js9-web/"
 
 displayed_js9_ids = []
 
